@@ -3,7 +3,6 @@ package Java.Tutorials.Translation;
 import java.util.Scanner;
 
 public class ifElifCalc {
-    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean continueCalculation = true;
@@ -12,49 +11,72 @@ public class ifElifCalc {
 
         while (continueCalculation) {
             try {
-                System.out.println("Enter an operation: ");
+                double[] numbers = getNumbers(scanner);
+                String[] operations = getOperations(scanner, numbers.length - 1);
 
-                String operation = scanner.nextLine();        
-                double num1 = getNumber1(scanner);
-                double num2 = getNumber2(scanner);
-
-                double result = calculate(num1, num2, operation);
+                double result = calculateExpression(numbers, operations);
                 System.out.println("Result: " + result);
-                scanner.nextLine();
-            } 
-            catch (NumberFormatException e) {
+            } catch (Exception e) {
                 System.out.println("Invalid input, please enter a number");
-            }    
+            }
         }
     }
 
+    public static double[] getNumbers(Scanner scanner) {
+        System.out.println("Enter the number of operands: ");
+        int numOperands = scanner.nextInt();
+        double[] numbers = new double[numOperands];
+
+        for (int i = 0; i < numOperands; i++) {
+            System.out.println("Enter number " + (i + 1) + ": ");
+            numbers[i] = scanner.nextDouble();
+        }
+        return numbers;
+    }
     public static String intro() {
-        System.out.println("What operation would you like to perform?");
-        System.out.println("Enter either 'add', 'subtract', 'multiply', or 'divide'");
-        return "";
+        return "Welcome to the calculator!";
+    }
+
+    public static String[] getOperations(Scanner scanner, int numOperations) {
+        String[] operations = new String[numOperations];
+
+        for (int i = 0; i < numOperations; i++) {
+            System.out.println("Enter operation (input x to exit) " + (i + 1) + " (+, -, *, /): ");
+            operations[i] = scanner.next();
+        }
+        return operations;
+    }
+
+    public static double calculateExpression(double[] numbers, String[] operations) {
+        double result = numbers[0];
+        for (int i = 0; i < numbers.length - 1; i++) {
+            result = calculate(result, numbers[i + 1], operations[i]);
+        }
+        return result;
     }
 
     public static double calculate(double num1, double num2, String operation) {
         switch (operation) {
-            case "add":
+            case "+":
                 return num1 + num2;
-            case "subtract":
+            case "-":
                 return num1 - num2;
-            case "multiply":
+            case "*":
                 return num1 * num2;
-            case "divide":
+            case "/":
                 return num1 / num2;
             default:
                 throw new UnsupportedOperationException("Unsupported operation");
         }
     }
-    public static double getNumber1(Scanner scanner) {
-        System.out.println("Enter the first number: ");
-        return scanner.nextDouble();
+
+    public static boolean exit(String input) {
+        continueCalculation = false;
+        endOfTask();
+        return true; 
     }
 
-    public static double getNumber2(Scanner scanner) {
-        System.out.println("Enter the second number: ");
-        return scanner.nextDouble();
+    public static String endOfTask() {
+        return "Thanks for using the calculator!";
     }
 }

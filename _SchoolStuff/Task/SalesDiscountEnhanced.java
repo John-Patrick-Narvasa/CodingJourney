@@ -1,9 +1,8 @@
-
-
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class SalesDiscount {
+
+public class SalesDiscountEnhanced {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         DecimalFormat df = new DecimalFormat("###,###.##");
@@ -17,9 +16,18 @@ public class SalesDiscount {
         System.out.print("Enter price: ");
         price = input.nextDouble();
 
-        discountPercentage = 0.0;
+        discountPercentage = discountPercentage(price);
 
+        discount = price * discountPercentage;
+        netPrice = price - discount;
 
+        System.out.println("\nPrice of " + product + " is " + df.format(price));
+        System.out.println("Discount is " + df.format(discount));
+        System.out.println("Net Price is " + df.format(netPrice));
+    }
+
+    public static double discountPercentage(double price) {
+        double discountPercentage = 0.0;
         if ((price >= 0) && (price <= 10_000)) {
             discountPercentage = 0.0;
         }
@@ -35,12 +43,6 @@ public class SalesDiscount {
         else if (price > 100_000) {
             discountPercentage = 0.2;
         }
-
-        discount = price * discountPercentage;
-        netPrice = price - discount;
-
-        System.out.println("\nPrice of " + product + " is " + df.format(price));
-        System.out.println("Discount is " + df.format(discount));
-        System.out.println("Net Price is " + df.format(netPrice));
+        return discountPercentage;
     }
 }

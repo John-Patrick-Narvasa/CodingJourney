@@ -44,7 +44,6 @@ public class DiscountPassenger {
             case 'N': 
                  businessCharge = 0;
                 break; 
-            default:
                 System.out.println("invalid input");
         }
 
