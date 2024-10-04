@@ -17,6 +17,99 @@ public class Calculator {
         createGUI();
     }
 
+    // Calculator() {
+    //     frame = new JFrame("Calculator");
+    //     frame.setSize(200, 200);
+    //     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    //     frame.setLayout(new FlowLayout());
+
+
+    //     textField = new JTextField(16);
+    //     frame.add(textField);
+
+
+    //     JButton button0 = new JButton("0");
+    //     button0.addActionListener(new ButtonListener());
+    //     frame.add(button0);
+
+
+    //     JButton button1 = new JButton("1");
+    //     button1.addActionListener(new ButtonListener());
+    //     frame.add(button1);
+
+
+    //     JButton button2 = new JButton("2");
+    //     button2.addActionListener(new ButtonListener());
+    //     frame.add(button2);
+
+
+    //     JButton button3 = new JButton("3");
+    //     button3.addActionListener(new ButtonListener());
+    //     frame.add(button3);
+
+
+    //     JButton button4 = new JButton("4");
+    //     button4.addActionListener(new ButtonListener());
+    //     frame.add(button4);
+
+
+    //     JButton button5 = new JButton("5");
+    //     button5.addActionListener(new ButtonListener());
+    //     frame.add(button5);
+
+
+    //     JButton button6 = new JButton("6");
+    //     button6.addActionListener(new ButtonListener());
+    //     frame.add(button6);
+
+
+    //     JButton button7 = new JButton("7");
+    //     button7.addActionListener(new ButtonListener());
+    //     frame.add(button7);
+
+
+    //     JButton button8 = new JButton("8");
+    //     button8.addActionListener(new ButtonListener());
+    //     frame.add(button8);
+
+
+    //     JButton button9 = new JButton("9");
+    //     button9.addActionListener(new ButtonListener());
+    //     frame.add(button9);
+
+
+    //     JButton addButton = new JButton("+");
+    //     addButton.addActionListener(new ButtonListener());
+    //     frame.add(addButton);
+
+
+    //     JButton subtractButton = new JButton("-");
+    //     subtractButton.addActionListener(new ButtonListener());
+    //     frame.add(subtractButton);
+
+
+    //     JButton multiplyButton = new JButton("*");
+    //     multiplyButton.addActionListener(new ButtonListener());
+    //     frame.add(multiplyButton);
+
+
+    //     JButton divideButton = new JButton("/");
+    //     divideButton.addActionListener(new ButtonListener());
+    //     frame.add(divideButton);
+
+
+    //     JButton equalsButton = new JButton("=");
+    //     equalsButton.addActionListener(new ButtonListener());
+    //     frame.add(equalsButton);
+
+
+    //     JButton clearButton = new JButton("C");
+    //     clearButton.addActionListener(new ButtonListener());
+    //     frame.add(clearButton);
+
+
+    //     frame.setVisible(true);
+    // }
     private void createGUI() {
         frame = new JFrame("Calculator");
         frame.setSize(200, 200);
