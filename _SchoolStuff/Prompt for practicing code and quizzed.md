@@ -46,8 +46,9 @@ Hello, I want you to follow the subject, coverage and prompt mentioned below:
     
     Conditions (Specs): (difficulty level, specificity, problem solving, edge cases) (for analytical stuff, division of quiz for future prompts (part 2 of quiz))
 
+    Weaknesses: *after initial prompt* ()
 
-    Number of Items: 20-30
+    Number of Items: 15-30
     
     Test/quiz style: (multiple choices (with various types... ex.: odd ones out, sentence form choices), identification, sequencing events, theory, true or false, coding exercise)
 

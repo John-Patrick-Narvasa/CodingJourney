@@ -1,4 +1,4 @@
-
+package _SchoolStuff.Task;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -11,6 +11,9 @@ public class DiscountPassengerEnhanced {
         char fareCode, yesOrNo;
         double fare, discount, discountPercentage, businessCharge, newFare;
 
+        businessCharge = 0.0;
+        discountPercentage = 0.0;
+        newFare = 0.0;
         
         System.out.print("Enter fare: ");
         fare = input.nextDouble();
@@ -21,20 +24,17 @@ public class DiscountPassengerEnhanced {
         System.out.print("Travelling in business class? [Y/N]: ");
         yesOrNo = input.next().charAt(0);
         
-        businessCharge = 0.0;
-        discountPercentage = 0.0;
-        newFare = 0.0;
         //safety net
         yesOrNo = Character.toUpperCase(yesOrNo);
         fareCode = Character.toUpperCase(fareCode);
 
         switch (yesOrNo) {
             case 'Y':
-                discountPercentage = conditionY(fareCode, discountPercentage, businessCharge, newFare); // Fixed fareCode parameter here
-                break;
+            discountPercentage = conditionY(fareCode, businessCharge); 
+            break;
             case 'N':
-                discountPercentage = conditionN(fareCode, discountPercentage, newFare);  // Fixed fareCode parameter here
-                break;
+            discountPercentage = conditionN(fareCode, discountPercentage);  
+            break;
             default:
                 System.out.println("invalid input");
                 break;
@@ -48,24 +48,21 @@ public class DiscountPassengerEnhanced {
         System.out.println("New fare: " + df.format(newFare));
     }
 
-    public static double conditionY(char fareCode, double discountPercentage, double businessCharge, double newFare) {
+    public static double conditionY(char fareCode, double businessCharge) {
         switch (fareCode) {
             case 'O':
                 businessCharge = 1000;
-                discountPercentage = 0.0;
                 break;
             case 'S':
                 businessCharge = 700;
-                discountPercentage = 0.05;
                 break;
             case 'C':
                 businessCharge = 500;
-                discountPercentage = 0.10;
                 break;
         }
-        return discountPercentage;
+        return businessCharge;
     }
-    public static double conditionN(char fareCode, double discountPercentage, double newFare) {
+    public static double conditionN(char fareCode, double discountPercentage) {
         switch (fareCode) {
             case 'O':
                 discountPercentage = 0.0;

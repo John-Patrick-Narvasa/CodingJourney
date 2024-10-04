@@ -43,8 +43,10 @@ public class DiscountPassenger {
 
             case 'N': 
                  businessCharge = 0;
-                break; 
-                System.out.println("invalid input");
+                 break; 
+            default:
+                 System.out.println("invalid input");
+                 break;
         }
 
         switch (fareCode) {
