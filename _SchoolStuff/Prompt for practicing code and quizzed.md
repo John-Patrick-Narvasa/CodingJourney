@@ -57,6 +57,9 @@ Hello, I want you to follow the subject, coverage and prompt mentioned below:
 
     Link Feed data(optional): 
 
+2nd generation
+Make another but rather focus more on the technical terms given on the files imported from the previous prompt.
+
 1. Hello, I want you to follow the subject, coverage and prompt mentioned below:
 
 Pseudo programming : (coverage: flowcharts, simulation and expected output (me who makes it) and arithmetics in java, and especially PROBLEM SOLVING regarding the last coverages mentioned with some edge cases) (recursive way, linear way, loop way)
