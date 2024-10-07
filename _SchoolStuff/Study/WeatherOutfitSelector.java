@@ -56,7 +56,7 @@ public class WeatherOutfitSelector {
     }
 
     public static String intro()  {
-        System.out.println("Hello there, we are here to recommend what clothes to wear in a certain temperature :)");
+        System.out.println("\nHello there, we are here to recommend what clothes to wear in a certain temperature :)");
         return "";
     }
 }
