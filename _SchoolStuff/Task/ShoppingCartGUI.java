@@ -7,7 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.text.DecimalFormat;
 
-public class ProductSaleGUI extends JFrame {
+public class ShoppingCartGUI extends JFrame {
     private static final long serialVersionUID = 1L;
 
     // Product names and prices
@@ -21,7 +21,7 @@ public class ProductSaleGUI extends JFrame {
     private JButton calculateButton;
     private JButton clearButton;
 
-    public ProductSaleGUI() {
+    public ShoppingCartGUI() {
         setTitle("Product Sale");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -101,7 +101,7 @@ public class ProductSaleGUI extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            ProductSaleGUI frame = new ProductSaleGUI();
+            ShoppingCartGUI frame = new ShoppingCartGUI();
             frame.setVisible(true);
         });
     }

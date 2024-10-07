@@ -9,7 +9,7 @@
 4. Sketch or Pseudocode the desired outputs
 
 5. Comment the main structuring [intro, housekeeping, functionality, end task] 
-(further abstractize using methods and classes)
+(further abstraction using methods and classes)
 
 6. Sketch what key functionalities should be used on each logic
 

@@ -3,7 +3,7 @@ package _SchoolStuff.Task;
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class ProductSale {
+public class ShoppingCart {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         DecimalFormat df = new DecimalFormat("###,###.00");
