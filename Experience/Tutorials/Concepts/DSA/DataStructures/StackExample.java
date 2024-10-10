@@ -39,7 +39,14 @@ public class StackExample {
             System.out.println(browserHistory.pop());
         }
     }
-    
-
-
 }
+
+/*Structuring: 
+ * Stack<KeyType> variableName = new Stack<>();
+ * variableName.push(key);
+ * variableName.pop();
+ * variableName.peek();
+ * variableName.search(key);
+ * variableName.isEmpty();
+ * 
+ */

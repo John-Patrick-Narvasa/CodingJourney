@@ -18,3 +18,12 @@ public class HashMapExample {
         }
     }
 }
+
+/*Structuring: 
+ * HashMap<KeyType, ValueType> variableName = new HashMap<>();
+ * variableName.put(key, value);
+ * 
+ * for (KeyType key : variableName.keySet())
+ *        System.out.println(variableName.get(key));
+ * 
+*/

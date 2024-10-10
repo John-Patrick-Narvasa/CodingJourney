@@ -1,4 +1,4 @@
-package _SchoolStuff.Study.selectionStructures.selfStudy;
+package _SchoolStuff.selfStudy;
 import java.util.Scanner;
 /*
  * && = and (* - multiplication)

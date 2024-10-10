@@ -40,28 +40,39 @@
 Find (questions, structuring, structured condition, )
 
 Hello, I want you to follow the subject, coverage and prompt mentioned below:
-    FORMULA
-    Topics:
-    Coverages: (Specific topic within topic)
-    
-    Conditions (Specs): (difficulty level, specificity, problem solving, edge cases) (for analytical stuff, division of quiz for future prompts (part 2 of quiz))
 
-    Weaknesses: *after initial prompt* ()
+## 1st generation
 
-    Number of Items: 15-30
-    
-    Test/quiz style: (multiple choices (with various types... ex.: odd ones out, sentence form choices), identification, sequencing events, theory, true or false, coding exercise)
+## Structure
+- Topic: 
+- Coverage: 
+- (Problem Solving): 
+- Conditions: Difficulty level, specificity, problem-solving, and edge cases
+
+## Quiz Design
+- Number of Items: 15-30
+- Test/Quiz Style:
+   - Multiple Choices (e.g., odd one out, sentence form choices)
+   - Identification
+   - Sequencing Events
+   - Theory
+   - True or False
+   - Coding Exercises (ranging difficulties)
+
+## Answer Key
+- Provide answer keys at the end of the quiz
+
+## Optional Data Links
+- Link Feed Data (if applicable)   
+
+## 2nd generation (iterations)
+Weaknesses: *after initial prompt* ()
+- Make another but rather focus more on the technical terms given on the files imported from the previous prompt.
+
+- Make another set with N items with unique questions that is STRICTLY not the same as the last outputs you have made from my last prompt/s.
 
 
-    Provide answer keys to the very bottom
-
-    Link Feed data(optional): 
-
-2nd generation
-Make another but rather focus more on the technical terms given on the files imported from the previous prompt.
-
-Make another set with N items with unique questions that is STRICTLY not the same as the last outputs you have made from my last prompt/s.
-
+# Sample:
 1. Hello, I want you to follow the subject, coverage and prompt mentioned below:
 
 Pseudo programming : (coverage: flowcharts, simulation and expected output (me who makes it) and arithmetics in java, and especially PROBLEM SOLVING regarding the last coverages mentioned with some edge cases) (recursive way, linear way, loop way)
@@ -100,3 +111,18 @@ Is there any way to expand this into or make a by stating tips _additional featu
 5.  make an automated git commenter (cuz i forgot that thing always)
 
 
+make a seperated java code snippet of each search and sorting algorithms mentioned below (revolving around a one comprehensible real world example application): (make comments what their purpose serves with the theoretical explanation and contextual explanation according to the example)
+
+Searching Algorithms
+1. Linear Search
+2. Binary Search
+3. DFS (Depth First Search)
+4. BFS (Breadth First Search)
+
+Sorting Algorithms
+1. Insertion Sort
+2. Merge Sort
+3. Quick Sort
+4. Bubble Sort
+5. Selection Sort
+6. Heap Sort
