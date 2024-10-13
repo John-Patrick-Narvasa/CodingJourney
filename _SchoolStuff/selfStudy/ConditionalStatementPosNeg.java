@@ -1,4 +1,4 @@
-package _SchoolStuff.Study.selectionStructures.selfStudy;
+package _SchoolStuff.selfStudy;
 import java.util.Scanner;
 public class ConditionalStatementPosNeg {
     public static void main(String[] args) {
@@ -17,5 +17,7 @@ public class ConditionalStatementPosNeg {
         }
 
         System.out.println("Program terminates");
+
+        scan.close();
     }
 }

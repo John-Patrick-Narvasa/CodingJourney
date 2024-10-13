@@ -1,4 +1,4 @@
-package _SchoolStuff.Study.selectionStructures.selfStudy;
+package _SchoolStuff.selfStudy;
 import java.util.Scanner;
 
 public class SwitchCaseChar {
@@ -34,5 +34,7 @@ public class SwitchCaseChar {
 
         //Display employee name
         System.out.println("\nEmployee: " + employee);
+
+        input.close();
     }
 }

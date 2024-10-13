@@ -36,5 +36,7 @@ public class LogicalOperators {
             System.out.println("No promotions for you :(");
         }
         System.out.println("Program Terminates");
+
+        scan.close();
     }
 }

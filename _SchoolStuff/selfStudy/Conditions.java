@@ -1,4 +1,4 @@
-package _SchoolStuff.Study.selectionStructures.selfStudy;
+package _SchoolStuff.selfStudy;
 //Conditions
 
 import java.util.Scanner;
@@ -54,5 +54,7 @@ public class Conditions {
             else {
                 System.out.println("You are a guest");
             }
+
+        scanner.close();
     }
 }
