@@ -1,5 +1,7 @@
 package Main Projects.Learning Projects.spreadshetConsoleVersion;
 import java.util.Scanner;
+
+
 public class SpreadsheetConsole {
 
     // This will be a makeshift spreadsheet calculator
@@ -63,6 +65,10 @@ public class SpreadsheetConsole {
         // Get the user's choice from the console
     }
 
+    private int getUserCoordinates(){
+
+    }
+
     private void handleUserChoice(int choice) {
         switch (choice) {
             case 1:
@@ -94,3 +100,6 @@ public class SpreadsheetConsole {
 
     // Add more methods for other spreadsheet functionality
 }
+
+
+
