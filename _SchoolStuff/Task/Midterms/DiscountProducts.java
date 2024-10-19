@@ -1,4 +1,4 @@
-package _SchoolStuff.Task;
+package _SchoolStuff.Task.Midterms;
 
 import java.util.Scanner;
 import java.text.DecimalFormat;
@@ -179,5 +179,7 @@ public class DiscountProducts {
         System.out.println("Interest: " +"\t" + "$" + df.format(interest));
         System.out.println("Total Amount: " +"\t" + "$" + df.format(total));
         System.out.println("Monthly Payment: " +"\t" + "$" + df.format(mA));
+
+        input.close();
     }
 }

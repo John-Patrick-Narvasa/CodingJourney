@@ -3,7 +3,7 @@ package _SchoolStuff.Task.Midterms;
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class DiscountProdCorr {
+public class _Midterms {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         DecimalFormat df = new DecimalFormat("###,###.00");

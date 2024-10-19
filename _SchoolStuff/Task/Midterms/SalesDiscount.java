@@ -1,4 +1,4 @@
-
+package _SchoolStuff.Task.Midterms;
 
 import java.util.Scanner;
 import java.text.DecimalFormat;
@@ -42,5 +42,7 @@ public class SalesDiscount {
         System.out.println("\nPrice of " + product + " is " + df.format(price));
         System.out.println("Discount is " + df.format(discount));
         System.out.println("Net Price is " + df.format(netPrice));
+
+        input.close();
     }
 }

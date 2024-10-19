@@ -1,4 +1,4 @@
-
+package _SchoolStuff.Task.Midterms;
 import java.util.Scanner;
 
 public class AverageTask {
@@ -24,6 +24,6 @@ public class AverageTask {
         double avg = (day1 + day2 + day3) / 3.0;
 
         System.out.println("\nAverage price of " + fuelType + " is: " + avg + " per liter");
-
+        input.close();
     }
 }

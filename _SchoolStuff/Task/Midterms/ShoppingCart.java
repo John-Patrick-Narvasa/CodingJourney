@@ -1,4 +1,4 @@
-package _SchoolStuff.Task;
+package _SchoolStuff.Task.Midterms;
 
 import java.util.Scanner;
 import java.text.DecimalFormat;

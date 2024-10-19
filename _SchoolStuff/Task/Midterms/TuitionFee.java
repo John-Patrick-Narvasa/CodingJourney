@@ -1,4 +1,4 @@
-
+package _SchoolStuff.Task.Midterms;
 
 import java.util.Scanner;
 import java.text.DecimalFormat;
@@ -40,5 +40,7 @@ public class TuitionFee {
         System.out.println("Cash Payment: " + df.format(cashPayment) + " dollars");
         System.out.println("2-installment: " + df.format(firstPenalty) + " dollars");
         System.out.println("3-installment: " + df.format(secondPenalty) + " dollars");
+
+        scan.close();
 	}
 }
