@@ -1,20 +1,32 @@
 The desired output for the spreadsheet console application should be intuitive and easy to understand for the user. Here's an example of what the output could look like:
 
+Structure: 
+
+1. menu and default spreadsheet display
+2. menu conditions logic
+
+3. add and subtract columns and rows 
+4. coordinate inputting system
+5. calculation menu (conditions)
+
+6. modified spreadsheet display
+7. exit option
+
 ```
 Spreadsheet Console Application
 
-Menu:
-1. Add row
-2. Add column
-3. Input value
-4. Perform calculation
-5. Exit
+Menu (switch case, while loops, organized by methods):
+1. Add row (for loops)
+2. Add column (for loops)
+3. Input value (scanner)
+4. Perform calculation (switch case)
+5. Exit (switch case)
 
 Enter your choice: 1
 
 Added a new row to the spreadsheet.
 
-Spreadsheet:
+Spreadsheet (for loops, multi dimensional arrays):
     A       B       C       D
 1   0.00    0.00    0.00    0.00
 2   0.00    0.00    0.00    0.00
