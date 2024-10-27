@@ -62,6 +62,8 @@ Make another but rather focus more on the technical terms given on the files imp
 
 Make another set with N items with unique questions that is STRICTLY not the same as the last outputs you have made from my last prompt/s.
 
+Dissect the logic of the "problem" in item N-N thoroughly...
+
 1. Hello, I want you to follow the subject, coverage and prompt mentioned below:
 
 Pseudo programming : (coverage: flowcharts, simulation and expected output (me who makes it) and arithmetics in java, and especially PROBLEM SOLVING regarding the last coverages mentioned with some edge cases) (recursive way, linear way, loop way)
