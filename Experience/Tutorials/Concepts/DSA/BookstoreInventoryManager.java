@@ -18,45 +18,45 @@ public class BookstoreInventoryManager {
 
     public static void main(String[] args) {
         // Arrays: Storing book titles
-        String[] bookTitles = {"Java Programming", "Data Structures and Algorithms", "Clean Code"};
+            String[] bookTitles = {"Java Programming", "Data Structures and Algorithms", "Clean Code"};
         
         // LinkedList: Storing book details (title, author, price)
-        LinkedList<String[]> bookDetails = new LinkedList<>();
-        bookDetails.add(new String[]{"Java Programming", "John Doe", "$40"});
-        bookDetails.add(new String[]{"Data Structures and Algorithms", "Jane Smith", "$35"});
-        bookDetails.add(new String[]{"Clean Code", "David Brown", "$45"});
+            LinkedList<String[]> bookDetails = new LinkedList<>();
+            bookDetails.add(new String[]{"Java Programming", "John Doe", "$40"});
+            bookDetails.add(new String[]{"Data Structures and Algorithms", "Jane Smith", "$35"});
+            bookDetails.add(new String[]{"Clean Code", "David Brown", "$45"});
         
         // HashMap: Mapping book titles to quantities
-        HashMap<String, Integer> bookQuantities = new HashMap<>();
-        bookQuantities.put("Java Programming", 10);
-        bookQuantities.put("Data Structures and Algorithms", 15);
-        bookQuantities.put("Clean Code", 8);
+            HashMap<String, Integer> bookQuantities = new HashMap<>();
+            bookQuantities.put("Java Programming", 10);
+            bookQuantities.put("Data Structures and Algorithms", 15);
+            bookQuantities.put("Clean Code", 8);
         
         // Stack: Simulating book sales (LIFO)
-        Stack<String> salesHistory = new Stack<>();
-        salesHistory.push("Java Programming - John Doe");
-        salesHistory.push("Data Structures and Algorithms - Jane Smith");
+            Stack<String> salesHistory = new Stack<>();
+            salesHistory.push("Java Programming - John Doe");
+            salesHistory.push("Data Structures and Algorithms - Jane Smith");
         
         // Queue: Managing book reservations (FIFO)
-        Queue<String> reservations = new LinkedList<>();
-        reservations.offer("Clean Code - David Brown");
+            Queue<String> reservations = new LinkedList<>();
+            reservations.offer("Clean Code - David Brown");
         
         // Binary Tree: Representing book categories as a binary tree
-        TreeNode root = new TreeNode("Programming");
-        root.left = new TreeNode("Algorithms");
-        root.right = new TreeNode("Design Patterns");
+            TreeNode root = new TreeNode("Programming");
+            root.left = new TreeNode("Algorithms");
+            root.right = new TreeNode("Design Patterns");
         
         // Graph: Representing relationships between book genres
-        Map<String, List<String>> genreConnections = new HashMap<>();
-        genreConnections.put("Programming", Arrays.asList("Algorithms", "Java Programming"));
-        genreConnections.put("Algorithms", Collections.singletonList("Data Structures and Algorithms"));
+            Map<String, List<String>> genreConnections = new HashMap<>();
+            genreConnections.put("Programming", Arrays.asList("Algorithms", "Java Programming"));
+            genreConnections.put("Algorithms", Collections.singletonList("Data Structures and Algorithms"));
         
         // Displaying bookstore inventory and activities
-        System.out.println("Bookstore Inventory and Activities:");
-        System.out.println("Book Titles: " + Arrays.toString(bookTitles));
+        System.out.println("\nBookstore Inventory and Activities:");
+        System.out.println("\nBook Titles: " + Arrays.toString(bookTitles));
         System.out.println("Book Details: " + bookDetails);
         System.out.println("Book Quantities: " + bookQuantities);
-        System.out.println("Sales History: " + salesHistory);
+        System.out.println("\nSales History: " + salesHistory);
         System.out.println("Reservations: " + reservations);
         System.out.println("Book Categories:");
         displayBinaryTree(root);

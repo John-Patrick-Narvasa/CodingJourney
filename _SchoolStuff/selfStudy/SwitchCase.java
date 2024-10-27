@@ -1,4 +1,4 @@
-package _SchoolStuff.Study.selectionStructures.selfStudy;
+package _SchoolStuff.selfStudy;
 import java.util.Scanner;
 import java.text.DecimalFormat;
 public class SwitchCase {
@@ -48,5 +48,7 @@ public class SwitchCase {
         System.out.println("\nCustomer: " + customer);
         System.out.println("Discount: " + df.format(discount));
         System.out.println("\nNet fare: " + df.format(netFare));
+
+        input.close();
     }
 }

@@ -20,3 +20,12 @@ public class QueueExample {
         }
     }
 }
+
+/*Structuring: 
+ * Queue<KeyType> variableName = new LinkedList<>();
+ * 
+ * variableName.add(key);
+ * variableName.poll();
+ * variableName.peek();
+ * 
+ */

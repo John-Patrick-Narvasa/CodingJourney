@@ -1,4 +1,3 @@
-package Java.Main.Projects.Learning Projects.shapeareacalc;
 import java.util.Scanner;
 
 
@@ -12,7 +11,7 @@ public class ShapeAreaCalc {
         boolean continueCalculation = true;
 
         while (continueCalculation) {
-            System.out.println("Enter the type of shape (rectangle, circle, or triangle)? Type x to exit");
+            System.out.print("Enter the type of shape (rectangle, circle, or triangle)? Type x to exit: ");
             String shape = scanner.nextLine().toLowerCase();
             double area = 0.0;
 

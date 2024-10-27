@@ -1,4 +1,4 @@
-package _SchoolStuff.Study.selectionStructures.selfStudy;
+package _SchoolStuff.selfStudy;
 import java.util.Scanner;
 /*
  * && = and (* - multiplication)
@@ -36,5 +36,7 @@ public class LogicalOperators {
             System.out.println("No promotions for you :(");
         }
         System.out.println("Program Terminates");
+
+        scan.close();
     }
 }

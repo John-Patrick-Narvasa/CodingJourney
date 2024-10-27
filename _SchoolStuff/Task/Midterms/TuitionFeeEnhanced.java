@@ -1,4 +1,4 @@
-
+package _SchoolStuff.Task.Midterms;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

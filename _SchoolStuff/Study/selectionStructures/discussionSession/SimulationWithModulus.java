@@ -17,7 +17,7 @@ public class SimulationWithModulus {
         } 
         System.out.println("The value of r="+ ++r); 
     } 
-    System.out.println("The value of r=" + r); 
-    System.out.println("The value of c=" + c); 
-    System.out.println("The value of b=" + b); 
+    System.out.println("The value of r= " + r); 
+    System.out.println("The value of c= " + c); 
+    System.out.println("The value of b= " + b); 
 }

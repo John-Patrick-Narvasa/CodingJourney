@@ -49,6 +49,7 @@ public class Loops1 {
             while (true) { //common technique for professionals 
                 System.out.println("Input:");
                 input = scanner.next().toLowerCase(); //because some people input uppercase letters
+
                 if (input.equals("pass"))
                     continue;
                 if (input.equals("quit")) 

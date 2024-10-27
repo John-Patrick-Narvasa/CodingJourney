@@ -23,8 +23,5 @@ public class InputUser  {
         System.out.println("What is your name?: ");
         String name2 = scanner.nextLine().trim(); //.trim()removes white space
         System.out.println("Hello " + name2);
-
-
-
     }
 }

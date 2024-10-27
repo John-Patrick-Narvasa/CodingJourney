@@ -1,5 +1,3 @@
-package Java.Main.Projects.Learning.Projects.shapeareacalc;
-
 import java.util.Scanner;
 
 public class AreaCalc {

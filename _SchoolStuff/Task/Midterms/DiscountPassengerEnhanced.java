@@ -1,4 +1,4 @@
-package _SchoolStuff.Task;
+package _SchoolStuff.Task.Midterms;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -46,6 +46,8 @@ public class DiscountPassengerEnhanced {
         System.out.println("\nDiscount: " + df.format(discount));
         System.out.println("Bussiness class charge: " + df.format(businessCharge));
         System.out.println("New fare: " + df.format(newFare));
+
+        input.close();
     }
 
     public static double conditionY(char fareCode, double businessCharge) {
