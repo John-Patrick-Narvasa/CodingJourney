@@ -1,3 +1,5 @@
+package _SchoolStuff.selfStudy.Methods;
+
 import java.util.Scanner;
 
 public class AreaCalc {
