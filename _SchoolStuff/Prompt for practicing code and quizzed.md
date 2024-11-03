@@ -69,9 +69,7 @@ Hello, I want you to follow the subject, coverage and prompt mentioned below:
 Weaknesses: *after initial prompt* ()
 - Make another but rather focus more on the technical terms given on the files imported from the previous prompt.
 
-Make another set with N items with unique questions that is STRICTLY not the same as the last outputs you have made from my last prompt/s.
-
-Dissect the logic of the "problem" in item N-N thoroughly...
+- Make another set with N items with unique questions that is STRICTLY not the same as the last outputs you have made from my last prompt/s.
 
 
 # Sample:

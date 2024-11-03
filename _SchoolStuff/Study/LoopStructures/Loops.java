@@ -1,4 +1,4 @@
-package SessionFinals;
+package _SchoolStuff.Study.LoopStructures;
 
 import java.util.Scanner;
 //remember the counting starts with the declared 

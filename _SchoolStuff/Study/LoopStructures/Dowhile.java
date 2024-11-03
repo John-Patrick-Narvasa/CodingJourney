@@ -1,4 +1,4 @@
-package SessionFinals;
+package _SchoolStuff.Study.LoopStructures;
 
 //purpose: reverse version of do while loop
 
