@@ -23,7 +23,7 @@ public class Methods {
     public static void sayHi() { 
         // void - a method that doesn't return a value
         //public - a method that can be accessed outside the class
-        //static - a method that can be called without creating an object. Able to call this method from inside the main method
+        //static - a method type that can be called without creating an object. Able to call this method from inside the main method
         System.out.println("Hi"); //body of the method
         return; //don't forget
     }

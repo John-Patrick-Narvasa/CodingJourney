@@ -14,7 +14,8 @@ public class JavaRocksMess {
     }
 
     public static void border() {
-        for (int i = 0; i <= 10; i++) {
+        int i = 0;
+        for (i = 0; i <= 10; i++) {
             System.out.print("=");
         }
         System.out.println();
