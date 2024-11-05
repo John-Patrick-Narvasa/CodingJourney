@@ -4,7 +4,8 @@ import java.util.Scanner;
 public class Task1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int input, ctr;
+        int input = 0, 
+        ctr = 0;
 
         System.out.print("Enter number: ");
         input = scan.nextInt();
@@ -28,7 +29,12 @@ public class Task1 {
             int subtrahend = i+1;
             System.out.print(difference + " " + subtrahend +" ");
         }
+        System.out.println(); 
 
+        System.out.print("Alternative/Reverse Order: ");
+        // for(int i=0; ){
+      
+        // }
         scan.close();
     }   
 }

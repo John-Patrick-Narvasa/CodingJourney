@@ -1,35 +1,37 @@
 # 8 Steps to Avoid Brainfarts 
 
-1. **Write the desired output**
-    Ensure the knowledge of how the program suppose to work for understanding the ins and outs of the program.
+1. List program goals (Desired outputs) (PAPER)
 
-2. **Type All Imports and Initialize**  
-   Ensure all necessary libraries and modules are imported at the beginning of your code.
+2. List OBJECTIVES and STEPS 
+  - Breaking down the problem
+  - Recognizing the patterns
+  - Forming the formula solution
 
-3. **Sketch or Comment the Problem**  
-   - Use paper or your IDE to outline the problem.
-   - **Variable Assignment Manager**: Create an initial sketch to visualize key variables via ARROW POINTERS (my own way of flowcharting).
-
-4. **Initialize All Variables**  
+3. List all NEEDS and TOOLS (Initialize the imports, variables, commands [conditions, loops, DSA]) (IDE)
    - Declare and initialize all variables and sub-variables.
    - Keep your variables organized to avoid clutter.
+   - visualize key variables via ARROW POINTERS (my own way of flowcharting).
 
-5. **Sketch or Pseudocode Desired Outputs**  
-   - Write down the expected results and how to achieve them.
-
-6. **Comment Main Structure**  
-   - Break down your code into sections: 
+4. Structurizing (for making bigger scale programs) (IDE)
+    - Break down your code into sections: 
      - Intro
      - Housekeeping
      - Functionality
      - End task
    - Use methods and classes for further abstraction.
 
-7. **Sketch Key Functionalities**  
+5. Pseudo code (Sketching) (PAPER)
+  - Apply the logic
+
+6. Simulate the Pseudo code (PAPER)
+   - Debugging Phase
+
+7. Sketch Key Functionalities (if necessary)
    - Identify and outline the critical functionalities for each logic block.
 
-8. **Start Coding**  
-    :D (enjoy or jump off a building I guess :D)
+8. Write code (using IDE)
+
+
 
 
 
